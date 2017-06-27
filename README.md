@@ -38,3 +38,6 @@ $ bundle exec rake
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/neguse/fluent-plugin-extract-json.
+
+ ## License
+ The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).

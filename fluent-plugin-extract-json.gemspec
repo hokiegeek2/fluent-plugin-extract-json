@@ -4,12 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-extract-json"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["neguse"]
   spec.email         = ["negcee@gmail.com"]
 
   spec.summary       = %q{Fluent::ExtractJsonFilter is a fluentd plugin extracts single JSON object from record.}
   spec.homepage      = "https://github.com/neguse/fluent-plugin-extract-json"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
